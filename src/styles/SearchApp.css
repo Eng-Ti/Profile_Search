@@ -1,0 +1,53 @@
+/* .list {
+    list-style-type: none;
+    background: linear-gradient(#ff80d3, #cc9c00);
+} */
+
+.profile {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+}
+
+.searchBar {
+    padding-left: 100px;
+    padding-top: 10px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.Bar {
+    display: inline-block;
+    width: 91.5%;
+    height: 45px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid white;
+    font-size: 15px;
+    font-style: italic;
+}
+
+
+.profileDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: rgb(124, 124, 124)
+}
+
+.userImage {
+    padding: 10px;
+}
+
+.userInfo {
+    align-content: top;
+    flex-wrap: nowrap;
+    margin-left: 5px;
+
+}
